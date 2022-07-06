@@ -1,0 +1,37 @@
+.catalog-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: #ffffff;
+  margin-left: 0 px;
+}
+
+.catalog-title-container {
+  margin-bottom: 20px;
+}
+
+.catalog-title-container p {
+  font-size: 23px;
+  font-weight: bold;
+  letter-spacing: -0.015em;
+}
+
+@media (min-width: 576px) {
+  .catalog-container {
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .catalog-container {
+    margin-left: 30px;
+  }
+
+  .catalog-title-container {
+    margin-bottom: 45px;
+  }
+
+  .catalog-title-container p {
+    font-size: 48px;
+  }
+}

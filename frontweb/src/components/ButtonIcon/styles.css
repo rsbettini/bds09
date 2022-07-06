@@ -1,0 +1,22 @@
+.btn-container {
+  display: flex;
+}
+
+.btn-container button {
+  width: 100%;
+  background: #ffc700;
+  border-radius: 4px;
+  min-height: 50px;
+}
+
+.btn h6 {
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: -0.015em;
+}
+
+@media (min-width: 576px) {
+  .btn-container button {
+    min-height: 65px;
+  }
+}
